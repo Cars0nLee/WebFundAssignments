@@ -1,0 +1,36 @@
+body {
+    margin:auto;
+}
+
+.row {
+    display: flex;
+    height: 45px;
+    color: white;
+}
+
+.col {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: teal;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.col-2 {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    background-color: teal;
+    border: 3px solid white;
+    padding: 10px;
+}
+
+.col-3 {
+    display: flex;
+    flex: 3;
+    align-items: center;
+    background-color: teal;
+    border: 3px solid white;
+    padding: 10px;
+}
