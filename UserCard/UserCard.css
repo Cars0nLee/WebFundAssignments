@@ -1,0 +1,75 @@
+body {
+    margin-top:300px;
+}
+#area {
+    border: 5px solid lightgray;
+    width: 755px;
+    height: 300px;
+    margin: auto;
+}
+
+#area2 {
+    background-color: #17a2b8;
+    width: 765px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+    bottom: 400px;
+}
+
+#top img {
+    border: 5px solid lightgray;
+    border-radius: 50%;
+    height: 100px;
+    box-shadow: 4px 4px 4px gray;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+#middle {
+    display: flex;
+    height: 25px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+h2 {
+    font-size: 100%;
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+h3 {
+    color: black;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    right:220px;
+    font-size: 100%;
+}
+
+#gear {
+    height: 20px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+h4 {
+    color: blue;
+    text-decoration: underline;
+    position: relative;
+    top: 7px;
+    left: 60px;
+}
+.m {
+    position: relative;
+    right: 227px;
+    top: 35px;
+}
