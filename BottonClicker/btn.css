@@ -1,0 +1,138 @@
+#navbar {
+    width: 1100px;
+    height: 100px;
+    background-color: gray;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+#innernav {
+    width: 1300px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#log {
+    background-color: teal;
+    border-color: black;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    box-shadow: 5px 5px black;
+}
+
+input {
+    height: 30px;
+    border: 3px solid black;
+}
+
+#center {
+    height: 700px;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#left {
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#right {
+    width: 400px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+#t {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    border:5px solid black;
+    display: flex;
+}
+
+#b {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    border:5px solid black;
+    display: flex;
+}
+
+#you{
+    width: 300px;
+    height: 250px;
+    background-color: turquoise;
+    margin-top: 25px;
+    margin-right: 5px;
+    border:5px solid black;
+}
+
+#noun {
+    margin-left: 30px;
+}
+#noun2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#noun button {
+    background-color: tan;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+#ninja {
+    margin-left: 30px;
+}
+
+#ninja2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#ninja button {
+    background-color: tan;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+#you button {
+    background-color: green;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 250px;
+    height: 55px;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    margin-top: 15px;
+}
+
+#you h2 {
+    font-size: 35px;
+}
+
+#inyou {
+    margin-left: 25px;
+}
