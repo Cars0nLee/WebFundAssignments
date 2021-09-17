@@ -1,0 +1,311 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+#navbar {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+#navleft {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navright {
+    width: 50%;
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-left: 50px;
+}
+
+#btn {
+    background-color: turquoise;
+    font-size: 20px;
+    color: white;
+    width: 130px;
+    height: 50px;
+}
+
+#center {
+    width: 800px;
+    height: 750px;
+    margin-right: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#right {
+    width: 300px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 120px;
+}  
+
+#back {
+    height: 150px;
+    width: 750px;
+    background-color:teal;
+    margin: auto;
+}
+
+#pro {
+    height: 450px;
+    width: 750px;
+    background-color:white;
+    margin: auto;
+    border: 3px solid gray;
+    position: relative;
+    bottom: 22px;
+}
+
+#edu {
+    height: 250px;
+    width: 750px;
+    background-color:white;
+    margin: auto;
+    border: 3px solid gray;
+}
+
+#back2 {
+    height: 50px;
+    width: 750px;
+    background-color:gray;
+    margin: auto;
+}
+
+#req {
+    width: 294px;
+    height: 250px;
+    background-color: white;
+    border: 3px solid gray;
+}
+#inner {
+    width: 294px;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    position: relative;
+    bottom: 120px;;
+}
+
+#conn {
+    width: 294px;
+    height: 380px;
+    background-color: white;
+    border: 3px solid gray;
+    position: relative;
+    top: 300px;
+    right: 300px;
+}
+
+#inner2 {
+    width: 294px;
+    height: 100px;
+    background-color: white;
+    border-bottom: 3px solid gray;
+}
+
+#view {
+    width: 294px;
+    height: 50px;
+    background-color: gray;
+    position: relative;
+    bottom: 250px;
+}
+
+
+#img1 img {
+    height: 150px;
+    position: relative;
+    top: 25px;
+    left: 55px;
+    border: 5px solid lightgray;
+    border-radius: 50%;
+}
+
+#img2 img {
+    height: 30px;
+    margin-right: 20px;
+}
+#img2 {
+    position: relative;
+    top: 75px;
+    left: 55px;
+    display: flex;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#info {
+    position: relative;
+    left: 55px;
+    top: 90px; 
+}
+
+#name {
+    font-size: 30px;
+    position: relative;
+    top: 230px;
+    left: 55px;
+}
+
+#img3 {
+    display: flex;
+    position: relative;
+    top: 110px;
+    right: 205px;
+}
+
+#img3 img {
+    height: 25px;
+}
+
+#gear {
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+}
+
+#edubar {
+    color: white;
+    padding-left: 30px;
+    padding-top: 9px;
+}
+
+h3 {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+h4 {
+    padding-left: 30px;
+}
+
+#back2 p {
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+#round {
+    background-color: lightgray;
+    border-radius: 50%;
+    width:35px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+    top:8px;
+    left: 15px;
+}
+
+#conreq {
+    position: relative;
+    top:7px;
+    left: 30px;
+}
+
+#your {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+}
+
+#todd img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+#phil img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+#phil, #todd {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    position: relative;
+    top: 105px;
+}
+
+#adrien, #anne, #alayne, #arry {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    position: relative;
+    top:80px;
+    right: 10px;
+}
+
+#adrien img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+#anne img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+#alayne img {
+    height: 35px;
+    border-radius: 50%;
+}
+
+#arry img{
+    height: 35px;
+    border-radius: 50%;
+}
+
+#end {
+    color: blue;
+    text-decoration: underline;
+    position: relative;
+    top: 115px;
+    left: 15px;
+}
+
+#plus {
+    background-color: lightgray;
+    border-radius: 50%;
+    width:65px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+    top:8px;
+    left: 15px;
+}
