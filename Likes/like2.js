@@ -1,4 +1,4 @@
-var likes = 0;
+var likes = 9;
 
 function count() {
     likes++;
@@ -6,14 +6,14 @@ function count() {
 }
 
 
-var likes1 = 0;
+var likes1 = 12;
 
 function count1() {
     likes1++;
     document.querySelector("#likes1").innerText = likes1 + " like(s)";
 }
 
-var likes2 = 0;
+var likes2 = 9;
 
 function count2() {
     likes2++;
