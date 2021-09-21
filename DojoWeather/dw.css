@@ -88,41 +88,41 @@ select {
 #m1 {
     width: 250px;
     height: 500px;
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: gray;
 }
 
 #m2 {
     width: 250px;
     height: 500px;
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: gray;
 }
 
 #m3 {
     width: 250px;
     height: 500px;
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: gray;
 }
 
 #m4 {
     width: 250px;
     height: 500px;
-    border: 3px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: gray;
 }
 
 #m1 img {
@@ -173,4 +173,16 @@ select {
 
 .temp {
     display: flex;
+}
+
+.temp p {
+    margin: 30px 30px;
+}
+
+.p1 {
+    color: red;
+}
+
+.p2 {
+    color: blue;
 }
