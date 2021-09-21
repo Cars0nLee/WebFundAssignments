@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="dw.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="navleft">
+            <h1>DojoWeather</h1>
+        </div>
+        <div id="navright">
+            <button onclick="alertMethod()"><h1>Burbank</h1></button>
+            <button onclick="alertMethod()"><h1>Chicago</h1></button> 
+            <button onclick="alertMethod()"><h1>Dallas</h1></button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="top">
+            <div id="tl">
+                <h2>San Jose</h2>
+            </div>
+            <div id="tr">
+                <h3>show temperature in </h3>
+                <select>
+                    <option>&#176;C</option>
+                    <option>&#176;F</option>
+                </select>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="m1">
+                <h2>Today</h2>
+                <img src="some_rain.png" alt="some rain">
+                <p>some rain</p>
+            </div>
+            <div id="m2">
+                <h2>Tomorrow</h2>
+                <img src="some_sun.png" alt="some sun">
+                <p>some sun</p>
+            </div>
+            <div id="m3">
+                <h2>Friday</h2>
+                <img src="some_clouds.png" alt="some clouds">
+                <p>some clouds</p>
+            </div>
+            <div id="m4">
+                <h2>Saturday</h2>
+                <img src="some_sun.png" alt= "some sun">
+                <p>some sun</p>
+            </div>
+        </div>
+        <div id="cookie">
+            <img src="cookie.png" alt="cookie">
+            <p>Stop! Cookie time<br>We use cookies (sadly not the edible ones) to personalize<br>content and ads, to provide social media features and to<br>analyse our traffic. <a href="">Read more...</a></p>
+            <button onclick="remove()">I Accept</button>
+        </div>
+    </div>
+    <script src="dw.js"></script>
+</body>
+</html>
