@@ -170,3 +170,7 @@ select {
     background-color: #9fc5f8;
     box-shadow: 2px 2px black;
 }
+
+.temp {
+    display: flex;
+}
